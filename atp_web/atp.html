@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Empresta coisas</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <section id="cabecalho">
+            <img src="logodosite.jpeg" alt="logo do site">
+            <a href="">Login</a>
+            <a href="">Cadastre-se</a>
+        </section>
+        <section id="Login">
+            <h2>Login</h2>
+            <form action="">
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome"><br>
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha"><br>
+                <input type="submit" value="enviar"><br>
+            </form>
+        </section>
+        <section id="Cadastro">
+            <h2>Cadastro</h2>
+            <form action="">
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome"><br>
+                <label for="email">e-mail</label><br>
+                <input type="email" id="email"><br>
+                <label for="cpf">CPF</label><br>
+                <input type="text" pattern="\d{3}.\d{3}.\d{3}-\d{2}$" title="Informe com pontos e traços: 000.000.000-00"><br>
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha"><br>
+                <label for="senha">Confirme a senha</label><br>
+                <input type="password" id="senha"><br>
+                <input type="submit" value="enviar">
+            </form>
+        </section>
+
+        <section id="altera_dados">
+            <h2>Alterar dados cadastrais</h2>
+            <form action="">
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome">
+                <input type="submit" value="Alterar"><br>
+                <label for="email">e-mail</label><br>
+                <input type="email" id="email">
+                <input type="submit" value="Alterar"><br>
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha">
+                <input type="submit" value="Alterar"><br>
+
+            </form>
+        </section>
+
+        <section id="cadastro_coisas">
+            <h2>Cadastro de Coisas</h2>
+            <form action="">
+                <label for="nome_coisa">Nome do objeto</label><br>
+                <input id="nome_coisa" type="text"><br>
+                <lable for="imagem_coisa">Imagem</lable><br>
+                <input type="file" id="imagem_coisa"><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="emprestimo">
+            <h2>Cadastro de Empréstimo</h2>
+            <form action="">
+                <label for="nome_coisa">Nome do objeto</label><br>
+                <input type="text" id="nome_coisa"><br>
+                <label for="destinatario">Nome do destinatário</label><br>
+                <input type="text" id="destinatario"><br>
+                <label for="contato_destinatario">E-mail do destinatário</label><br>
+                <input type="email" id="contato_destinatario"><br>
+                <label for="data_emprestimo">Data do empréstimo</label><br>
+                <input type="date" id="data_emprestimo"><br>
+                <label for="data_devolucao">Data da devolucao</label><br>
+                <input type="date" id="data_devolucao"><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section id="dados_item">
+            <h2>Objetos</h2>
+            <form action="">
+                <label for="nome_coisa">Nome do Objeto</label>
+                <img src="" alt="Imagem do item"><input type="button" value="Emprestar">
+            </form>
+            
+            
+        </section>
+    </body>
+</html>

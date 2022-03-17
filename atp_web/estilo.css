@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto; 
+}
+body {
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white;
+
+}
+
+ul {
+    list-style-position:inside;
+  }
+
+/*Layout*/
+#cabecalho{
+    background:#0d864a;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+#menu, #area-logo {
+    padding: 10px;
+}
+
+/*formatação menu*/
+
+a:link, a:visited {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: green;
+    background-color: whitesmoke;
+}
+a:active {
+    color:black
+}
+
+h1 {
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+/*principal*/
+#principal {
+    width: 920px; /*largura padrão para dispositivos modernos*/
+    margin: 0 auto;
+}
+#conteudo {
+    background-color: white;
+}
+#conteudo {
+    width: 700px;
+    float: right;
+}
+#lateral {
+    padding-top: 20px;
+    width: 200px;
+    float: left;
+    background-color: white;
+}
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background:#CCC;
+}
+.container-coisa {
+    width: 180px; 
+    height: 200px;
+    padding: 15px;
+    margin: 20px 16px;
+    background-color: white;
+    float: left;
+    border: 1px solid black;    
+
+}
+/* Formatações gerais*/
+
+.branco {
+    color: white;
+}

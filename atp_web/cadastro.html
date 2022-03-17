@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Empresta Coisas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div id="cabecalho">
+         <div id="area-logo">
+            <h1>Empresta <span class="branco">Coisas</span></h1>
+         </div>
+         <div id="menu">
+            <a href="index.html">HOME</a>
+            <a href="login.html">LOGIN</a>
+            <a href="cadastro.html">CADASTRO</a>
+            <a href="altera-dados.html">ALTERAR DADOS</a>
+
+        </div>
+    </div>
+
+    <section id="Cadastro">
+        <h2>Cadastro</h2>
+        <form action="">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome"><br>
+            <label for="email">e-mail</label><br>
+            <input type="email" id="email"><br>
+            <label for="cpf">CPF</label><br>
+            <input type="text" pattern="\d{3}.\d{3}.\d{3}-\d{2}$" title="Informe com pontos e traços: 000.000.000-00"><br>
+            <label for="senha">Senha</label><br>
+            <input type="password" id="senha"><br>
+            <label for="senha">Confirme a senha</label><br>
+            <input type="password" id="senha"><br>
+            <input type="submit" value="enviar">
+        </form>
+    </section>
+
+</html>
